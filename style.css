@@ -1,0 +1,66 @@
+nav {
+  background-color: black;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between; /* Aligns items to the start and end of the flex container */
+  align-items: center; /* Aligns items vertically at the center */
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 20px; /* Add some spacing between menu items */
+}
+
+nav ul li a {
+  color: #e7d2a6;
+  text-decoration: none;
+  font-size: 25px;
+}
+nav ul li a:hover {
+  color: #d3ad66;
+  cursor: pointer;
+}
+/* nav ul li a {
+  display: none;
+} */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.imgText {
+  width: 5rem;
+  height: auto;
+}
+
+.imgLogo1 {
+  width: 50px;
+  margin-left: 0px;
+  height: auto;
+}
+.imgText,
+.imgLogo1 {
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.divLogo:hover {
+  cursor: pointer;
+}
+
+menu-icon {
+  display: none;
+}
+
+.svg-icon {
+  width: 30px;
+  height: 30px;
+  color: #d3ad66;
+}
